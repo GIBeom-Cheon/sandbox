@@ -1,0 +1,148 @@
+/*
+fuxking hexagon....... 
+hexagon2 = newcreator intro
+hexagon3 = relation to hexagon2
+hexagon4 = Lil hexagon *6
+hexagon5 = article intro 
+
+*/
+
+
+.hexagon {
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transform: rotate(120deg);
+     -moz-transform: rotate(120deg);
+      -ms-transform: rotate(120deg);
+       -o-transform: rotate(120deg);
+          transform: rotate(120deg);
+  cursor: pointer;
+  }
+.hexagon-in1 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+      -ms-transform: rotate(-60deg);
+       -o-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+  }
+.hexagon-in2{
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 120%;
+  visibility: visible;
+  -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+      -ms-transform: rotate(-60deg);
+      -o-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+  
+  }
+.hin1{
+  background-image: url(../img/10.jpg);
+}
+.hin2{
+  background-image: url(../img/12.jpg);
+}
+.hin3{
+  background-image: url(../img/9.jpg);
+}
+
+.hexagon2 {
+  width: 300px;
+  height: 400px;
+  margin: 20px 30px 0 30px;
+  }
+/********************
+작은 폴리곤  모음
+*********************/
+.hexagon-in2.game{
+  background-color: black;
+  background-image: url(../img/gameicon.png);
+  background-position: 50%;
+  background-size: 50%;
+}
+.hexagon-in2.travel{
+  background-color: black;
+  background-image: url(../img/travelicon.png);
+  background-position: 50%;
+  background-size: 50%;
+}
+.ih{
+  position: absolute;
+  top: -150px;
+  right: 20px;
+}
+.hexagon3{
+  width: 50px;
+  height: 80px;
+}
+.hexagonWrap{
+  display: flex;
+  gap: 10px;
+  margin-top: 100px;
+}
+.hexagon4{
+  width: 15px;
+  height: 20px;
+}
+.hexagon-in2.white{
+  background-color: rgba(240, 240, 240, 0.822);
+}
+
+/*********************************/
+.itemTxtBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.itemTxtBox p{
+  margin: 0 auto;
+  color:#FFF;
+  letter-spacing: 1rem;
+  font-size: 30px;
+}
+.itemTxtBox span{color:#FFF; font-size: 20px;}
+
+
+/******** article *****/
+.hexagon5{
+  width: 140px;
+  height: 170px;
+}
+.hexagon-in2.article1{
+  background-image: url(../img/article1.png);
+  background-size: cover;
+
+}
+
+.hexagon-in2.article2{
+  background-image: url(../img/article2.jpg);
+  background-size: cover;
+
+}
+.hexagon-in2.article3{
+  background-image: url(../img/article3.png);
+  background-size: cover;
+
+}
+.hexagon-in2.article4{
+  background-image: url(../img/article4.jpg);
+  background-size: cover;
+
+}
+.hexagon-in2.article5{
+  background-image: url(../img/article5.jpg);
+  background-size: cover;
+}
+.hexagon-in2.article6{
+  background-image: url(../img/article6.jpg);
+  background-size: cover;
+
+}

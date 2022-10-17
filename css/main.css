@@ -1,0 +1,390 @@
+/*******************
+    H E A D E R
+********************/
+main{
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+}
+.titleContainer{
+  position: absolute;
+  z-index:1;
+  width: 100%;
+  height: 1000px;
+  display: block;
+  background-color: #2133B5;
+  overflow: hidden;
+
+}
+.backBox{
+  display : block;
+  width: 1000px;
+  height: 800px;
+  background-color: #E3114E;
+  position: absolute;
+  transform: rotate(-30deg) translate(-50%,-122%);
+  top: 10%;
+  left: 15%;
+  z-index: -1;
+}
+
+.header{
+  width: 65%;
+  margin: 50px auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  width: 160px;
+  height: 19px;
+}
+.logoWrap{
+  width: 160px;
+  height: 19px;
+}
+.logoWrap > a{
+  box-sizing: border-box;
+}
+.navBar{
+  display: flex;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+.navBar li{
+  margin-left: 3rem;
+}
+
+.navBar li > a{
+  color: white;
+  font-size: 16px;
+}
+
+.lan{
+  position: absolute;
+  right: 0;
+  top: -30px;
+}
+.lan > a{
+  margin-left: 1.2rem;
+  color:white;
+  font-size: 12px;
+}
+
+
+/******************
+    T I T L E 
+*******************/
+
+.titleTv{
+  width: 1280px;
+  height: 800px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  transform: translate(-50% , -50%);
+  left: 50%;
+  top: 50%;
+  padding: 150px;
+  z-index: 1;
+}
+
+#carouselExampleFade,#carouselExampleControls{
+  padding: 0px;
+  transform: translateY(-50%,-50%);
+  left: 50%;
+  top: 40%;
+}
+.carousel-inner{
+  width: 1000px;
+  height: 1000px;
+  padding: 10px;
+}
+
+
+.titleh2{
+  margin-top: 120px;
+  padding-left: 100px;
+  font-size: 90px;
+  font-weight: 900;
+  line-height: 1.1;
+  color:#E3114E;
+  transition: all 0.3s;
+
+}
+.titleh3{
+  margin-top: 20px;
+  font-size: 50px;
+  line-height: 1.1;
+  color: white;
+  padding-left: 150px;
+  margin-bottom: 60px;
+  transition: all 0.3s;
+}
+
+.titleImg{
+  position: absolute;
+  top: -17%;
+  right: -10%;
+  z-index:-1;
+}
+
+.box{
+  margin-left: 100px;
+  background-color:  transparent;
+  border:2px solid  white ;
+  color: white;
+  padding: 10px;
+  transition: all 1s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.box:hover{
+  color: black;
+}
+.box::before{
+  content : "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 400%;
+  bottom:100%;
+  right: 0;
+  background-color: #fff;
+  box-sizing: content-box;
+  transform: translate3d(0,0,0) skewY(-20deg);
+  transform-origin: top center;
+  transition: all 0.3s ease-out;
+  opacity: 0;
+  z-index: -100;
+  
+}
+.boxWrap{
+  overflow: hidden;
+  padding: 10px;
+  padding-bottom: 9px;
+}
+.box:hover::before{
+  transform: translate3d(0,50%,0) skewY(-20deg);
+  opacity: 1;
+  transition-duration: 0.4s;
+}
+
+.carousel-control-prev.arrowleft{
+  position: absolute;
+  left: -80px;
+  transition: all 0.5s;
+}
+.carousel-control-prev.arrowleft:hover{
+  transform: translateX(-10px);
+}
+.carousel-control-next.arrowright{
+  position: absolute;
+  right: -80px;
+  transition: all 0.5s;
+}
+.carousel-control-next.arrowright:hover{
+  transform: translateX(10px);
+
+}
+
+
+/***********************
+    S E C T I O N # 1
+***********************/
+#section1{
+  background-color: #FFC200;
+  position: relative;
+  overflow: hidden;
+}
+/* #section1::before{
+  content: "";
+  width: 5000px;
+  height: 2300px;
+  transform: translate(-34%,10%) rotate(-30deg) ;
+  background-color: #FFC200;
+  display: block;
+  position: absolute;
+} */
+.intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+}
+.sectionLine1{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.sectionLine1 h3{
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+}
+.sectionLine1 div.line{
+  display: block;
+  width: 500px;
+  height: 10px;
+  background-color: #fff;
+  margin: 30px 0 0 30px;
+
+}
+
+.sectionLine1 p {
+  color:#fff;
+}
+
+.intro{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.itemWrap{
+  display: flex;
+}
+
+/*********************
+    S E C T I O N 2
+**********************/
+#section2{
+  background-color: #FFC200;
+  position: relative;
+  z-index: 100;
+}
+
+.contentWrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.contentWrap2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+
+/*******ARICLE SECTION *************/
+.articleWrap{
+  width: 80%;
+  position: relative;
+  margin-top:5%;
+}
+.articleList{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center ;
+  gap: 30px;
+}
+.article{
+  display: block;
+  width: 330px;
+  height: 485px;
+  background-color: #fff ;
+  padding: 30px;
+  position: relative;
+}
+.article::before{
+  content: "SANDBOX";
+  display: none;
+  position:absolute;
+  right: 30px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.article::after{
+  content: "CREATOR";
+  display: none;
+  position:absolute;
+  right: 30px;
+  top: 30px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.article h5 {
+  margin-top: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.article p{
+  margin-top : 50px;
+  margin-bottom : 40px;
+  font-size: 14px;
+  font-weight:100;
+  color:rgb(148, 148, 148);
+  line-height: 1.8;
+}
+.article span{
+  font-size: 14px;
+  color:rgb(148, 148, 148);
+  position:absolute;
+  bottom: 30px;
+}
+
+.boxWrap2{
+  overflow: hidden;
+  padding: 10px 0 9px 0;
+  width: 100%;
+}
+
+.box2{
+  background-color:  transparent;
+  border:2px solid  white ;
+  color: white;
+  padding: 10px;
+  transition: all 1s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.box2:hover{
+  color: black;
+}
+.box2::before{
+  content : "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 400%;
+  bottom:100%;
+  right: 0;
+  background-color: #fff;
+  box-sizing: content-box;
+  transform: translate3d(0,0,0) skewY(-20deg);
+  transform-origin: top center;
+  transition: all 0.3s ease-out;
+  opacity: 0;
+  z-index: -100;
+  
+}
+
+.box2:hover::before{
+  transform: translate3d(0,50%,0) skewY(-20deg);
+  opacity: 1;
+  transition-duration: 0.4s;
+}
+/*****************
+    F O O T E R
+******************/
+
+
+.footerBack{
+  background-image: url(../img/footer_back.jpg);
+  background-size:cover;
+  background-position: center;
+  height: 1000px;
+  position: relative;
+}
+

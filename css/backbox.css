@@ -1,0 +1,46 @@
+.triangle {
+  width: 0px;
+  height: 0px;
+  border-top: 50vw solid #2133b5;
+  border-left: 0px solid transparent;
+  border-right: 100vw solid transparent;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top:0;
+  left: 50%;
+  z-index: 0;
+}
+.triangle1 {
+  width: 0px;
+  height: 0px;
+  border-bottom: 50vw solid #ffc200;
+  border-left: 100vw solid transparent;
+  border-right:  0px solid transparent;
+  position: absolute;
+  bottom: 0;
+  left:50%;
+  z-index: 1;
+}
+
+.triangle3 {
+  width: 0px;
+  height: 0px;
+  border-top: 50vw solid #ffc200;
+  border-left: 0px solid transparent;
+  border-right: 100vw solid transparent;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top:0;
+  left: 50%;
+}
+.triangle4 {
+  width: 0px;
+  height: 0px;
+  border-bottom: 50vw solid black;
+  border-left: 100vw solid transparent;
+  border-right:  0px solid transparent;
+  position: absolute;
+  bottom:0;
+  left:50%;
+  z-index: 0;
+}

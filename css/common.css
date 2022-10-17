@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'sand';
+  src: url('../font/SB-m.ttf') format('truetype');
+}
+
+body{
+  font-family: 'sand' !important;
+  background: #2133B5;
+}
+
+.flex{
+  display: flex;
+}
+.center{
+  justify-content: space-between;
+  align-items: center;
+}
