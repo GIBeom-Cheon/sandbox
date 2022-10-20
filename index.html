@@ -9,9 +9,9 @@
     <meta property="og:img" content="https://sandbox.co.kr/assets/images/common/sd_logo_bk.png" />
     <title>샌드박스</title>
     <link rel="icon" href="./img/5.jpg" />
-    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/hexagon.css" />
     <link rel="stylesheet" href="css/backbox.css" />
     <link rel="stylesheet" href="css/responsive.css" />
@@ -21,12 +21,12 @@
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script defer src="js/main.js"></script>
+    <script defer src="js/index.js"></script>
   </head>
   <body>
     <main>
+      <div class="backBox"></div>
       <div class="titleContainer">
-        <div class="backBox"></div>  
         <header class="header">
           <div class="logoWrap">
             <a  href="index.html">
@@ -35,27 +35,49 @@
           </div>
           <div class="navWrap">
             <ul class="navBar">
-              <li><a href="#">크리에이터</a></li>
-              <li><a href="#">비즈니스</a></li>
-              <li><a href="#">샌드박스게이밍</a></li>
-              <li><a href="#">회사소개</a></li>
-              <li><a href="#">인재채용</a></li>
-              <li><a href="#">메타토이드래곤즈</a></li>
-              <li><a href="#">샌드박스 폰트</a></li>
+              <li>
+                <a href="#" class="nav1">크리에이터</a>
+                <ul class="subNavBar1 sn1 sub">
+                  <li><a href="#" class="subNav">크리에이터 보기</a></li>
+                  <!-- <li><div class="subLine"></div></li> -->
+                  <li><a href="#">샌드박스의 강점</a></li>
+                </ul>
+                
+              </li>
+              <li>
+                <a href="#" class="nav2">
+                  <span>비즈니스</span>
+                  <ul class="subNavBar2 sn2 sub">
+                    <li><a href="#" class="subNav">브랜드 광고</a></li>
+                    <!-- <li><div class="subLine"></div></li> -->
+                    <li><a href="#">IP사업</a></li>
+                  </ul>
+                </a>
+              </li>
+              <li><a href="#" class="nav3">샌드박스게이밍</a></li>
+              <li><a href="#" class="nav4">회사소개</a></li>
+              <li><a href="#" class="nav5">인재채용</a></li>
+              <li><a href="#" class="nav6">메타토이드래곤즈</a></li>
+              <li><a href="#" class="nav7">샌드박스 폰트</a></li>
+              <li>
+                <div class="lan">
+                  <a href="index.html">KOREAN</a>
+                  <a href="indexEn.html">ENGLISH</a>
+                </div>
+              </li>
             </ul>
           </div>
-          <div class="lan">
-            <a href="index.html">KOREAN</a>
-            <a href="indexEn.html">ENGLISH</a>
-          </div>
+          <a href="#" class="trigger"><span>열기/닫기</span></a>
         </header>
         <div id="carouselExampleFade" class="carousel slide carousel-fade titleTv" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <h2 class="titleh2">WE CREATE<br>BETTER<br>TOGETHER</h2>
-              <h3 class="titleh3">크리에이터와 함께<br>
-                세상을 더 즐겁게</h3>
-              <div class="boxWrap"><a class="box">크리에이터 보기</a></div>
+              <div class="txtTv">
+                <h2 class="titleh2">WE CREATE<br>BETTER<br>TOGETHER</h2>
+                <h3 class="titleh3">크리에이터와 함께<br>
+                  세상을 더 즐겁게</h3>
+                <div class="boxWrap"><a class="box">크리에이터 보기</a></div>
+              </div>
               <img class="titleImg d-block w-200" src="./img/jupul.png" alt="">
             </div>
             <div class="carousel-item">
@@ -84,15 +106,36 @@
         </div><!--메인 타이틀 슬라이드-->
         <div class="triangle1"></div>
       </div>
+      <a href="#">
+        <div class="cube">
+          <div class="face front"></div>
+          <div class="face back"></div>
+          <div class="face left"></div>
+          <div class="face right"></div>
+          <div class="face top"></div>
+          <div class="face bottom"></div>
+        </div>
+        <div class="cube1 rotate">
+          <div class="face1 front2"></div>
+          <div class="face1 back2"></div>
+          <div class="face1 left2"></div>
+          <div class="face1 right2"></div>
+          <div class="face1 top2"></div>
+          <div class="face1 bottom2"></div>
+        </div>
+      </a>
+      <a href="#"><div class="cubeTxt"><span>크리에이터<br /><span>지원하기</span></span></div></a>
+      <button class="topBtn" type="button">
+        <span>TOP</span>
+      </button>
     </main>
     <section id="section1">
-      
       <div class="triangle"></div>
       <div class="contentWrap">
         <div class="intro">
-          <div class="sectionLine1">
+          <div class="sectionLine1 line1">
             <div class="lineTxt">
-              <h3>NEW CREATORS</h3>
+              <h3 class="lineTexth2">NEW CREATORS</h3>
               <p>샌드박스의 새로운 크리에이터들을 소개합니다.</p>
             </div>
             <div class="line"></div>
@@ -123,9 +166,35 @@
               </div>
             </div>
           </div>
+          <div class="itemWrap1">
+            <div class="introItem introItem1">
+              <div class="hexagon hexagon2"><div class="hexagon-in1"><a href="https://www.youtube.com/channel/UCom6YhUY62jM52nIMjf5_dw" target="_blank"><div class="hexagon-in2 hin4"></div></a></div></div>
+              <div class="itemTxtBox">
+                <p><strong>빅헤드</strong></p>
+                <span>60만명</span>
+                <div class="ih hexagon hexagon3"><div class="hexagon-in1"><div class="hexagon-in2 game"></div></div></div>
+              </div>
+            </div>
+            <div class="introItem introItem2">
+              <div class="hexagon hexagon2"><div class="hexagon-in1"><a href="https://www.youtube.com/c/%EB%B9%A0%EB%8B%88%EB%B3%B4%ED%8B%80PaniBottle" target="_blank"><div class="hexagon-in2 hin5"></div></a></div></div>
+              <div class="itemTxtBox">
+                <p><strong>조디악</strong></p>
+                <span>30만명</span>
+                <div class="ih hexagon hexagon3"><div class="hexagon-in1"><div class="hexagon-in2 game"></div></div></div>
+              </div>
+            </div>
+            <div class="introItem introItem3">
+              <div class="hexagon hexagon2"><div class="hexagon-in1"><a href="https://www.youtube.com/c/%EC%9E%84%EB%82%98%EC%9D%80" target="_blank"><div class="hexagon-in2 hin6"></div></a></div></div>
+              <div class="itemTxtBox">
+                <p><strong>금강연화</strong></p>
+                <span>42만명</span>
+                <div class="ih hexagon hexagon3"><div class="hexagon-in1"><div class="hexagon-in2 travel"></div></div></div>
+              </div>
+            </div>
+          </div>
           <div class="hexagonWrap">
-            <div class="hexagon hexagon4"><div class="hexagon-in1"><div class="hexagon-in2 white"></div></div></div>
-            <div class="hexagon hexagon4"><div class="hexagon-in1"><div class="hexagon-in2 white"></div></div></div>
+            <div class="hexagon hexagon4"><div class="hexagon-in1"><div class="hexagon-in2 white st1"></div></div></div>
+            <div class="hexagon hexagon4"><div class="hexagon-in1"><div class="hexagon-in2 white st2"></div></div></div>
             <div class="hexagon hexagon4"><div class="hexagon-in1"><div class="hexagon-in2 white"></div></div></div>
             <div class="hexagon hexagon4"><div class="hexagon-in1"><div class="hexagon-in2 white"></div></div></div>
             <div class="hexagon hexagon4"><div class="hexagon-in1"><div class="hexagon-in2 white"></div></div></div>
@@ -134,10 +203,11 @@
           </div>
         </div>
       </div>
+
     </section>
     <section id="section2">
       <div class="contentWrap2">
-        <div class="sectionLine1">
+        <div class="sectionLine1 line2">
           <div class="lineTxt">
             <h3>SANDBOX NEWS</h3>
             <p>샌드박스와 크리에이터들의 새로운 소식을 전합니다.</p>
@@ -145,46 +215,47 @@
           <div class="line"></div>
         </div>
         <div class="articleWrap">
-          <ul class="articleList">
-            <li><div class="article">
-              <div class="hexagon hexagon5"><div class="hexagon-in1"><div class="hexagon-in2 article1"></div></div></div>
-              <h5>샌드박스네트워크, 237만 유튜버 총몇명과 공동 개발한 ‘공포의 술래잡기’ 게임 출시!</h5>
-              <p>샌드박스네트워크가 ‘총몇명’과 손잡고 1,200만 조회수 콘텐츠 ‘공포의 임상시험’ 확장한 오리지널 스토리 ‘공포의 술래잡기’ 개발하고, 게임과 단편 애니메이션을 출시합니다.</p>
-              <span>2022. 08. 29</span>
-            </div></li>
-            <li><div class="article">
-              <div class="hexagon hexagon5"><div class="hexagon-in1"><div class="hexagon-in2 article2"></div></div></div>
-              <h5>샌드박스, 대세 캣튜버 하하하와 MBTI 컨셉 굿즈 ‘냥BTI’ 출시</h5>
-              <p>샌드박스네트워크가 118만 구독자를 보유한 대표 캣튜버 하하하 신규 기획 굿즈를 출시했습니다.</p>
-              <span>2022. 08. 16</span>
-            </div></li>
-            <li><div class="article">
-              <div class="hexagon hexagon5"><div class="hexagon-in1"><div class="hexagon-in2 article3"></div></div></div>
-              <h5>정찬성X안일권X하승진 '좀비트립: 파이터를 찾아서' 시즌2 온다! 11일 첫 공개</h5>
-              <p>'좀비트립' 제작진 "시즌2, 전작 대비 10배 넘는 싸움꾼들 지원…'저승문호'와의 대결 기대"</p>
-              <span>2022. 08. 11</span>
-            </div></li>
-            <li><div class="article">
-              <div class="hexagon hexagon5"><div class="hexagon-in1"><div class="hexagon-in2 article4"></div></div></div>
-              <h5>샌드박스, '소식좌' 박소현X산다라박과 웹예능 '밥 맛 없는 언니들' 론칭</h5>
-              <p>샌드박스네트워크가 연예계 대표 '소식좌'로 유명한 박소현, 산다라박과 함께 웹예능 '밥 맛 없는 언니들'을 론칭합니다.</p>
-              <span>2022. 07. 12</span>
-            </div></li>
-            <li><div class="article">
-              <div class="hexagon hexagon5"><div class="hexagon-in1"><div class="hexagon-in2 article5"></div></div></div>
-              <h5>샌드박스네트워크 S2O 페스티벌 부스 운영 ‘성료’</h5>
-              <p>샌드박스네트워크가 글로벌 최대 워터 EDM 페스티벌 S2O 코리아 송크란 뮤직 페스티벌에서 관객 참여형 부스를 운영했습니다.</p>
-              <span>2022. 07. 11</span>
-            </div></li>
-            <li><div class="article">
-              <div class="hexagon hexagon5"><div class="hexagon-in1"><div class="hexagon-in2 article6"></div></div></div>
-              <h5>샌드박스, '좋좋소' 총연출 빠니보틀·'대세 크리에이터' 곽튜브와 전속계약</h5>
-              <p>샌드박스네트워크가 대표 여행 크리에이터 빠니보틀, 곽튜브와 전속계약을 체결했습니다.</p>
-              <span>2022. 07. 06</span>
-            </div></li>
-            <li><div class="boxWrap2"><a class="box2">최신 뉴스 보러가기</a></div></li>
-          </ul>
-          
+          <div class="articleBox">
+            <ul class="articleList">
+              <li><div class="article">
+                <div class="hexagon hexagon5"><div class="hexagon-in1"><div class="hexagon-in2 article1"></div></div></div>
+                <h5>샌드박스네트워크, 237만 유튜버 총몇명과 공동 개발한 ‘공포의 술래잡기’ 게임 출시!</h5>
+                <p>샌드박스네트워크가 ‘총몇명’과 손잡고 1,200만 조회수 콘텐츠 ‘공포의 임상시험’ 확장한 오리지널 스토리 ‘공포의 술래잡기’ 개발하고, 게임과 단편 애니메이션을 출시합니다.</p>
+                <span>2022. 08. 29</span>
+              </div></li>
+              <li><div class="article">
+                <div class="hexagon hexagon5"><div class="hexagon-in1"><div class="hexagon-in2 article2"></div></div></div>
+                <h5>샌드박스, 대세 캣튜버 하하하와 MBTI 컨셉 굿즈 ‘냥BTI’ 출시</h5>
+                <p>샌드박스네트워크가 118만 구독자를 보유한 대표 캣튜버 하하하 신규 기획 굿즈를 출시했습니다.</p>
+                <span>2022. 08. 16</span>
+              </div></li>
+              <li><div class="article">
+                <div class="hexagon hexagon5"><div class="hexagon-in1"><div class="hexagon-in2 article3"></div></div></div>
+                <h5>정찬성X안일권X하승진 '좀비트립: 파이터를 찾아서' 시즌2 온다! 11일 첫 공개</h5>
+                <p>'좀비트립' 제작진 "시즌2, 전작 대비 10배 넘는 싸움꾼들 지원…'저승문호'와의 대결 기대"</p>
+                <span>2022. 08. 11</span>
+              </div></li>
+              <li><div class="article">
+                <div class="hexagon hexagon5"><div class="hexagon-in1"><div class="hexagon-in2 article4"></div></div></div>
+                <h5>샌드박스, '소식좌' 박소현X산다라박과 웹예능 '밥 맛 없는 언니들' 론칭</h5>
+                <p>샌드박스네트워크가 연예계 대표 '소식좌'로 유명한 박소현, 산다라박과 함께 웹예능 '밥 맛 없는 언니들'을 론칭합니다.</p>
+                <span>2022. 07. 12</span>
+              </div></li>
+              <li><div class="article">
+                <div class="hexagon hexagon5"><div class="hexagon-in1"><div class="hexagon-in2 article5"></div></div></div>
+                <h5>샌드박스네트워크 S2O 페스티벌 부스 운영 ‘성료’</h5>
+                <p>샌드박스네트워크가 글로벌 최대 워터 EDM 페스티벌 S2O 코리아 송크란 뮤직 페스티벌에서 관객 참여형 부스를 운영했습니다.</p>
+                <span>2022. 07. 11</span>
+              </div></li>
+              <li><div class="article">
+                <div class="hexagon hexagon5"><div class="hexagon-in1"><div class="hexagon-in2 article6"></div></div></div>
+                <h5>샌드박스, '좋좋소' 총연출 빠니보틀·'대세 크리에이터' 곽튜브와 전속계약</h5>
+                <p>샌드박스네트워크가 대표 여행 크리에이터 빠니보틀, 곽튜브와 전속계약을 체결했습니다.</p>
+                <span>2022. 07. 06</span>
+              </div></li>
+            </ul>
+            <div class="boxWrap2"><a class="box2">최신 뉴스 보러가기</a></div>
+          </div>
         </div>
         
       </div>
@@ -192,11 +263,45 @@
     </section>
     
     <footer>
-      
       <div class="footerBack">
+        <div class="sectionLine2 line3">
+          <div class="lineTxt">
+            <h3>CASE STUDY</h3>
+            <p>샌드박스는 다양한 장르의 콘텐츠를 바탕으로<br />
+              크리에이터들과 함께 성공적인 브랜드 콘텐츠를 제작하고 IP 사업을 진행합니다.</p>
+          </div>
+          <div class="line"></div>
+        </div>
         <div class="triangle3"></div>
+        <div class="footerTxt">
+          <h2>WE CREATE DIGITAL <br />
+            ENTERTAINMENT</h2>
+          <h3>디지털 시대의 즐거움은<br />
+            우리에 의해 다시 창조 됩니다.</h3>
         </div>
       </div>
+
+      <div class="footerWrap">
+        <div class="footerLeft">
+          <div class="footerLogo"></div>
+          <div class="potal">
+            샌드박스 최신 뉴스보기 | 샌드박스 포스트 보기 | IR 공고 | 개인정보처리방침
+          </div>
+          <div class="address">
+            <p>Copyright © 2019 SANDBOX NETWORK Inc. All Rights Reserved</p>
+            <a href = "mailto: contact@sandboxnetwork.net" class="email">E-mail : contact@sandboxnetwork.net</a>
+          </div>
+        </div>
+        <div class="footerRight">
+          <div class="sns">
+            <div class="hexagon hexagon6"><div class="hexagon-in1"><div class="hexagon-in2 sns"><img src="./img/youtube.png"></div></div></div>
+            <div class="hexagon hexagon6"><div class="hexagon-in1"><div class="hexagon-in2 sns"><img src="./img/face.png"></div></div></div>
+            <div class="hexagon hexagon6"><div class="hexagon-in1"><div class="hexagon-in2 sns"><img src="./img/insta.png"></div></div></div>
+          </div>
+        </div>
+      </div>
+
+      
     </footer>
 
 

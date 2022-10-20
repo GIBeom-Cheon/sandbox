@@ -8,9 +8,7 @@ body{
   background: #2133B5;
 }
 
-.flex{
-  display: flex;
-}
+
 .center{
   justify-content: space-between;
   align-items: center;

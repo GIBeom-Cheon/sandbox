@@ -12,7 +12,7 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
-	padding: 0;
+	padding: 0 ;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -42,4 +42,14 @@ table {
 }
 a{
   text-decoration: none !important;
+}
+
+.none{
+	display: none !important;
+}
+.block{
+	display: block !important;
+}
+.flex{
+	display: flex !important;
 }

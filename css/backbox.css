@@ -27,7 +27,7 @@
   height: 0px;
   border-top: 50vw solid #ffc200;
   border-left: 0px solid transparent;
-  border-right: 100vw solid transparent;
+  border-right: 99vw solid transparent;
   transform: translate(-50%, -50%);
   position: absolute;
   top:0;
@@ -43,4 +43,16 @@
   bottom:0;
   left:50%;
   z-index: 0;
+}
+
+.fade{
+  animation: fade 1s forwards;
+}
+@keyframes fade {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }

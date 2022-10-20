@@ -51,6 +51,15 @@ hexagon5 = article intro
 .hin3{
   background-image: url(../img/9.jpg);
 }
+.hin4{
+  background-image: url(../img/sub1_1.jpg);
+}
+.hin5{
+  background-image: url(../img/5.jpg);
+}
+.hin6{
+  background-image: url(../img/8.jpg);
+}
 
 .hexagon2 {
   width: 300px;
@@ -84,7 +93,11 @@ hexagon5 = article intro
 .hexagonWrap{
   display: flex;
   gap: 10px;
-  margin-top: 100px;
+  margin: 100px auto;
+
+
+
+  
 }
 .hexagon4{
   width: 15px;
@@ -145,4 +158,26 @@ hexagon5 = article intro
   background-image: url(../img/article6.jpg);
   background-size: cover;
 
+}
+
+/*** FOOTER SNS *****/
+
+.hexagon6{
+  width: 40px;
+  height: 80px;
+  margin-right: 30px;
+}
+.hexagon-in2.sns{
+  background-image: url(../img/hexagon.png);
+  background-size: contain;
+
+}
+
+
+.sns > img{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 38%;
+  left: 25%;
 }
